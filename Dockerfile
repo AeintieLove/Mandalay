@@ -1,5 +1,5 @@
 # Tomcat image ကို သုံးပါမယ် (Java 17 support ပါတာ)
-FROM tomcat:11.0-jdk17
+FROM tomcat:9.0-jdk17
 
 # ပုံမှန် Tomcat ရဲ့ default webapps တွေကို ရှင်းထုတ်ပါမယ်
 RUN rm -rf /usr/local/tomcat/webapps/*
